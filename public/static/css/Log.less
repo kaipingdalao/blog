@@ -1,0 +1,60 @@
+#Log {
+    width: 100%;
+    //background-color: #eb7350;
+
+    .log_box {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 50px 0 50px 0;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+
+        .log_page_title {
+        }
+
+        .log_list {
+            .log_item {
+                text-align: left;
+
+                .log_year {
+                    margin: 0px 0px 15px 20px;
+                    span {
+                        font-size: 28px;
+                    }
+
+                    .log_month {
+                        margin: 20px 0px 20px 20px;
+
+                        span {
+                            font-size: 23px;
+                            color: #5f5f5f;
+                        }
+
+                        span::before {
+                            content: '#';
+                            color: #eb5055;
+                            margin: 0px 5px;
+                            font-size: 22px;
+                        }
+
+                        .log_day {
+                            margin: 0px 0px 0px 60px;
+                            padding: 25px 0px 10px 0px;
+
+                            span {
+                                font-size: 18px;
+                                color: #5f5f5f;
+                            }
+                            span::before {display: none}
+                        }
+
+                        .log_content {
+                            border-radius: 6px;
+                            margin: 20px 0px 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
